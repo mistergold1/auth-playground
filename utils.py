@@ -7,3 +7,5 @@ def hash_password(password: str) -> str:
 
 def check_password(password: str, password_hash: str) -> bool:
     return hash_password(password) == password_hash
+
+    # TODO: add password strength validation
